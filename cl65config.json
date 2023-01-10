@@ -1,5 +1,4 @@
 {
-  "executable": "/home/emarii/cc65/bin/cl65",
-  "input": "demo.s",
-  "params": "--verbose --target nes -o demo.nes"
+  "executable": "C:\\cc65\\bin\\cl65",
+  "params": "--verbose --target nes wrapper.s"
 }

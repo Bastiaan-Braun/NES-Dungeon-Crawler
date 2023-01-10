@@ -1,0 +1,18 @@
+ 
+ LINUX: "executable": "/home/emarii/cc65/bin/cl65",
+
+ WINDOWS: "executable": "C:\\cc65\\bin\\cl65",
+
+CREATE NES PROGRAM 
+{
+  "executable": "C:\\cc65\\bin\\cl65",
+  "input": "demo.s",
+  "params": "--verbose --target nes -o demo.nes"
+}
+
+
+CRASH COURSE config
+{
+  "executable": "C:\\cc65\\bin\\cl65",
+  "params": "--verbose --target nes wrapper.s"
+}
